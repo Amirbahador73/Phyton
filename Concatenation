@@ -1,0 +1,18 @@
+First Method
+String Concatenation using f-string
+
+name = 'Pankaj'
+age = 34
+d = 'Data(10)'
+print(f'{name} age is {age} and {d}')
+
+>>>> Pankaj age is 34 and Data(10)
+
+Second Method
+String concatenation using join() function
+
+s1 = 'Hello'
+s2 = 'World'
+print('Concatenated String using join() =', " ".join([s1, s2]))
+
+>>>> Concatenated String using join() = Hello World
